@@ -55,7 +55,7 @@ func NewCluster(name string, state *ProvisionState, event *Event) *Cluster {
 }
 
 func (c *Cluster) Start() {
-	fmt.Printf("The cluster '%s' with id '%s' is started", c.name, c.uuid)
+	fmt.Printf("The cluster '%s' with id '%s' is starting", c.name, c.uuid)
 	return
 }
 
